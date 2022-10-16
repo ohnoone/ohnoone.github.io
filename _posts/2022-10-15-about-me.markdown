@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Aoubt Me"
+date:   2022-10-15 17:37:58 +0800
+categories: profile
+url: resume/resume.md
+---
+<meta http-equiv="refresh" content="0;url = /resume/resume.html" />

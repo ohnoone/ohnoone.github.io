@@ -1,0 +1,24 @@
+---
+
+---
+
+<link rel="stylesheet" href="/assets/css/card.css">
+<body>
+  <div class="card" onclick="window.location.href='/resume/resume.html'">
+    {% for item in site.data.soulsoup %}
+    <h1>{{item.book}} </h1>
+
+      <div class="scroller">
+         <div>
+            <p>{{item.text}} </p>
+         </div>
+      </div>
+      {% endfor %}
+    
+    <p class="note">
+        Who are you. <a href="/resume/resume.html">Mr.Fang</a><br/><br/>
+      Contact me!<br/>
+      <a href="">189-2872-1976</a>
+    </p>
+  </div>
+</body>
